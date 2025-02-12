@@ -371,7 +371,7 @@ unsigned int mpeg12_debug_mask = 0xff;
 /*static int counter_max = 5;*/
 
 static u32 run_ready_min_buf_num = 2;
-static int dirty_again_threshold = 100;
+static int dirty_again_threshold = 150;
 static int error_proc_policy = 0x1;
 
 #define PRINT_FLAG_ERROR              0x0
